@@ -1,16 +1,3 @@
-Now let me think through the skill design carefully before writing it.
-
-This skill needs to cover:
-1. **SSH-based remote development** on Jetson Orin Nano from a host (Cursor/VS Code)
-2. **Engine file (.trt/.engine) building** on Jetson (ARM64, JetPack-specific TensorRT)
-3. **DeepStream pipeline testing** on Jetson
-4. **Parallel dev workflow** — editing locally, syncing/testing remotely
-5. **Kilocode (agentic AI) specific patterns** — what commands/patterns to emit for the agent
-
-Let me create a comprehensive, well-structured skill:Here's what's in the skill and how to use it:
-
----
-
 ## `jetson-remote-dev` Skill
 
 A Kilocode-ready agentic skill for parallel host ↔ Jetson Orin Nano development. Install the `.skill` file via the Kilocode extension in Cursor.
